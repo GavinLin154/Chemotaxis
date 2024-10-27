@@ -4,6 +4,7 @@ banana eats;
 
 void setup() {
   size(1000,1000); 
+  framerate(120);
   for(int i = 0; i < family.length; i++) {
     family[i] = new minionWalker(); 
   }
